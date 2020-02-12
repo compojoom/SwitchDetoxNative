@@ -1,0 +1,107 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/.env
+
+ios/*.zip
+keyfiles/*
+ios/Pods
+src/shared/lib/src
+
+# ## build artifacts
+# ios
+ios/assets/*
+ios/mobileapp/*.jsbundle*
+mobileapp.ipa
+mobileapp*.zip
+ios/mobileapp/GoogleService-Info.plist
+
+# android
+#android/app/src/main/assets/*
+android/app/src/main/res/**/assets_*.png
+android/app/src/main/res/**/node_modules_*.png
+#!android/app/trustlines-release-key.keystore
+
+!.gitkeep
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+.eslintcache
+
+package-lock.json
+/flow-coverage/
+
+# Ruby stuff
+/vendor/
+/.bundle/
+
+/coverage/
+
+# backupfiles
+*~
+*.swp
+/android/app/develop
+
+# e2e test artifacts
+/artifacts
+/android/captures
+/process.yml
+
+# fbt artifacts
+.enum_manifest.json
+.src_manifest.json
+.source_strings.json
+.translated_fbts.json
